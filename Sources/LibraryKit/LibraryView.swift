@@ -9,6 +9,9 @@ import SwiftUI
 import SharedKit
 
 public struct LibraryView: View {
+    
+    public init() {}
+    
     public var body: some View {
         Text(Greeting().greet())
     }
