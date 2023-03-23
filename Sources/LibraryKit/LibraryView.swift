@@ -8,8 +8,8 @@
 import SwiftUI
 import SharedKit
 
-struct LibraryView: View {
-    var body: some View {
+public struct LibraryView: View {
+    public var body: some View {
         Text(Greeting().greet())
     }
 }
